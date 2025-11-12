@@ -32,6 +32,6 @@ func RunDailyProblemSet(
 	case "2":
 		part2(stringData)
 	default:
-		log.Fatal("unknown part")
+		log.Fatal("unknown problem part")
 	}
 }
